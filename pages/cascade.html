@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascade</title>
+    <link rel="stylesheet" href="../styles/styles_css_foundation/style-cascade.css">
+</head>
+
+<body>
+    <h1>Cascade</h1>
+    <button><a href="./css-playground.html" target = "_self" rel = "noreferrer">Click to go back to css-playground page</a></button>
+
+    <div id = "id_2_class" class = "class_2_id_2_type"> Id > class > type > *</div>
+
+
+
+    <p> Specificity rules</p>
+
+    <div class="main">
+        <div class="list subsection">If Descendants class > one class, the text will be blue.</div>
+        <div class="list" id = "id_subsection">If ID > Descendants class, the text will be green.</div>
+        <div id = "id_subsection_2"> ID + Descendants class > one ID, the text will be blue.</div>
+        
+    </div>
+<br>
+
+    <div class = "class">
+            <div>
+                <div class = "second-class">Decendent include grandchild element</div>
+            </div>
+        <div class = "second-class">This direct child should be id blue</div>
+        <div class = "class second-class">This Chain selector is both 'chain' and 'child' but because 'chain' is written later than 'child' so child rule takes over, it should be id green</div>
+    </div>
+<br>
+
+    <div id="parent_id">
+        <div class="child_class"> Despite ID element having a higher specificity,since that declaration directly targets it, child_class will apply first. </div>
+    </div>
+
+    <h3 ><span class="heading">Assignment: Fix the Cascade</span></h3>
+    <p class="para">I'm just a paragraph with extra bold text!</p>
+    <p class="para small-para">I'm a smaller paragraph, also with extra bold text!</p>
+    
+    <button id="confirm-button" class="button confirm">Confirm</button>
+    <button id="cancel-button" class="button cancel">Cancel</button>
+
+    <div class="text">I'm a div with thin text!</div>
+    <div class="text">I'm a div with thin text and a child div!
+        <div class="text child">I'm a smaller child div with extra bold text.</div>
+    </div>
+    
+
+
+</body>
+</html>
+
+
+<!-- <div> is box container wile <span> is inline container -->

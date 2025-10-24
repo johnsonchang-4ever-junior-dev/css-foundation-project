@@ -1,0 +1,17 @@
+p{
+    background-color: pink;
+    font-family: Verdana, "DejaVu Sans", sans-serif
+}
+#sec_elem{
+    color: blue;
+    font-size: 39px;
+}
+#third_elem{
+    font-size: 24px;
+}
+
+#forth_elem{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}

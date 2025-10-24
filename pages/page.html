@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not intex.html bcz I have title</title>
+</head>
+<body>
+    <h1>Page</h1>
+    <p><a href="../index.html" target = "_self" rel = "noreferrer">Click to go back to Index page</a></p>
+    <br><br>
+    <p><a href="https://www.theodinproject.com/paths" target="_blank" rel="noreferrer">Exercise: Click me to odin project</a></p>
+    <p>This is the about page for the Odin Links and Images project.</p>
+    <div>
+            <p>Bcz web servers will by default look for an index.html page when users land on our websites,</p>
+            <p>always name the HTML file that will contain the homepage of our website index.html</p>
+        </div>
+        <!-- use indentation for parents elements and sibling elements(hierarchy) -->
+        <h3>Create HTML Boilerplate faster on <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">VScode</a></h3>
+        <ul>
+            <!-- ul is an unordered list -->
+            <!-- li is a list item -->
+            <li>Create an empty html file</li>
+            <li>Type <strong>' ! '</strong> and hit tab or enter key</li>
+            <ul>
+                <li>nested list</li>
+                <li>nested list</li>
+            </ul>
+        </ul>
+
+
+        <h3>Some useful shell commands for web development</h3>
+        <ol>
+            <!-- ol is an ordered list -->
+            <li> To create a new directory: mkdir directory_name</li>
+            <li> To navigate into a directory: cd directory_name</li>
+            <li> To print current working directory: pwd</li>
+            <li> To create a new file: touch index.html</li>
+            <li> To open the directory in VS Code: <strong><em>code .</em></strong> || open -a "Visual Studio Code" .</li>
+            <li> To open 'index.html' in chrome browser: <strong><em>open -a "Google Chrome" index.html</em></strong></li>
+            <!-- Don't use <b> and <i> !!! use <strong> and <em> bcz you want screen reader to work on your website-->
+        </ol>
+        <!-- for learning CSS, learn box model first -->
+        <!-- think of every html elements as a box -->
+        <!-- <margin><padding><width>content width</width></padding></margin> -->
+        <!-- Don't use chrome when debugging css, use firefox bcz their dev tools are better -->
+        <h3>Let's do some count down</h3>
+        <div>
+            <!-- <div> is a block container element -->
+            <!-- <span> is an inline container element -->
+            <ol reversed>
+                <!-- a reveresed order list -->
+                <li>!</li>
+                <li>!</li>
+                <li value = "5"><span style = "background: tomato;">!</span></li>
+                <li>!</li>
+                <li>!</li>
+                <li>!</li>
+            </ol>
+        </div>
+        <!-- a link is made up of scheme(protocol)://domain/path -->
+        <!-- add the attribute target="_blank" to make your link open in a new tab  -->
+        <!-- the relation attribute rel="noreferrer" (also includes noopener) -->
+        <!--rel=”noreferrer”: ensures the new page cannot see the referring page’s address (privacy) and prevents it from accessing the original page (security). -->
+        <div> <img alt = "Odin Project Logo" src="https://www.theodinproject.com/mstile-310x310.png" style="width: 300px; height: 300px;" ></div>
+        <!-- how to set the size -->
+        <div> <img alt = "CSS box model" src="../images/css.png" style="width: 600px; height: 400px;" ></div>
+    <div> <img alt = "A dog on the about page" src="../images/dog.jpg" style="width: 270px; height: 300px;" ></div>
+    <div><img alt = "A lion king" src="../images/lion.jpg" style="width: 500px; height: 300px;"></div>
+</body>
+</html>

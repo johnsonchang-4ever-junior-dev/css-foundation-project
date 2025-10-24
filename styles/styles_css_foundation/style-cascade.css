@@ -1,0 +1,100 @@
+
+* {
+    outline: 1px solid purple;
+}
+
+.class_2_id_2_type  {
+  color: red;
+}
+
+#id_2_class  {
+  color: blue;
+}
+
+.class_2_id  {
+  color: red;
+}
+
+#id_2_class  {
+  color: blue;
+}
+
+
+
+.subsection {
+  color: red;
+}
+/* rule 2 */
+.main .list {
+  color: blue;
+}
+
+#id_subsection {
+  color: green;
+}
+
+#id_subsection_2 {
+  color: red;
+}
+
+.main #id_subsection_2 {
+  color: blue;
+}
+
+
+.class .second-class {
+  color: red;
+}
+
+
+.class > .second-class {
+  color: blue;
+}
+
+.class.second-class {
+  color: green;
+}
+
+
+#parent_id {
+  color: red;
+}
+
+.child_class {
+  color: blue;
+}
+
+.heading{
+    background-color: aqua;
+}
+
+div p{
+    background-color: yellow;
+}
+
+
+.para{
+    /* extra bold  */
+    font-weight: bold;
+}
+
+.para.small-para{
+    font-size: 12px;
+}
+
+
+.confirm{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+div.text{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: thin;
+}
+
+div.child{
+    font-weight: bold;
+    font-size: 12px;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>css_playground</title>
+    </head>
+    <style>
+        /* a simple asterisk is a universal selector
+        * {
+            color : purple;
+        } 
+        */
+        h2{
+            color: teal;
+        }
+
+        div {
+            color: darkgrey;
+        }
+        .alert-text {
+            color: tomato;
+        }
+        #title {
+            color: darkblue;
+        }
+        .severe-alert, .font-family-courier {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .subsection.header {
+            color: purple;
+        }
+        .subsection#preview {
+            color: violet;
+        }
+
+        .parent-class .child-class {
+            color: green;
+        }
+        /*p {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }*/
+    </style>
+    <body>
+        <h1>CSS Playground</h1>
+        <button><a href="../index.html" target = "_self" rel = "noreferrer">Click to go back to Index page</a></button>
+        <br><br>
+        
+        <p>This is a playground page for testing CSS styles.</p>
+        <div>Hello, World!</div>
+        <div>Hello again!</div>
+        <p>I learned that to open in line chat on VScode is 'cmd + I'</p>
+        <p> I also learned that to open the chat is 'ctrl + cmd + I '</p>
+        <p> To move the text up, highlight and use 'option + up'</p>
+        <p> To inspect an element is 'cmd + shift + C'/ 'cmd option + I' & 'global key + F12' are not so useful</p>
+        <p> To look at the box elements, add + on the right, and type *{outline: 1px solid purple;} in style element </p>
+
+        <div>an element is &ltopening tag&gt content &lt/closing tag&gt</div>
+
+        <div class="alert-text severe-alert">
+            This is an demo for class selector in CSS.
+        </div>
+
+        <div id = "title" class ="font-family-courier">
+            <p >This is an demo for id selector in CSS.</p>
+            <p>The major difference between classes and IDs is that an element can only have one ID. </p>
+            <p> It cannot be repeated on a single page. </p>
+        </div>
+
+        <p> Now move to the grouping selector</p>
+        <div>
+            <div class ="subsection header font-family-courier">
+            <p>This class will only to color purple when a div has both classes. This is like if class1 class2 both exist, turn the color to purple.</p>
+            </div>
+            <p class =" font-family-courier subsection" id = "preview" > Here, the bundled class and id works too</p>
+        </div>
+
+
+        <p>Move to the descendant selector</p>
+        <p>The descendant combinator is just a space between selectors</p>
+        <div class="parent-class">
+            <div class="child-class">
+                <p>This child element will only work if it is inside a parent element.</p>
+                <p>This can't be done in reverse</p>
+            </div>
+        </div>
+        <div class="child-class">
+            <p>This is a child element outside the parent. so it will not work</p>
+        </div>
+        <p><a href = "./customized_text.html"> Click this for customized font</a></p>
+
+        <h1>Now we move on to Foundation CSS exercise </h1>
+        <h3>Foundation CSS exercise 01~05: </h3>
+        <button><a href = "./01-css-methods.html"> Click this 01-css-methods</a></button>
+        <br><br>
+        <button><a href = "./02-class-id-selectors.html"> Click this 02-class-id-selectors</a></button>
+        <br><br>
+        <button><a href = "./03-grouping-selectors.html"> Click this 03-grouping-selectors</a></button>
+        <br><br>
+        <button><a href = "./04-chaining-selectors.html"> Click this 04-chaining-selectors</a></button>
+        <br><br>
+        <button><a href = "./05-descendant-combinator.html"> Click this 05-descendant-combinator</a></button>
+        <br><br>
+        <h3>Foundation CSS exercise Cascade</h3>
+        <button><a href = "./cascade.html"> Click this cascade</a></button>
+        <br><br>
+        <h3>Foundation CSS Block and inline</h3>
+        <button><a href = "./block-inline-01.html"> Click this block-inline-01</a></button>
+        <br><br>
+        <button><a href = "./block-inline-02.html"> Click this block-inline-02</a></button>
+        <h3>Flex box</h3>
+        <button><a href = "./flex-box.html"> Click this flex-box</a></button>
+        <br><br>
+        <h2>Foundation CSS Flexbox</h2>
+        <button><a href="../index.html" target = "_self" rel = "noreferrer">Click to go to CSS foundation project page, Which is also index page</a></button>
+        <br><br>
+        
+    </body>
+</html>
