@@ -2,6 +2,12 @@
 
 A comprehensive learning project demonstrating fundamental CSS concepts and modern web development techniques. This project showcases various CSS skills through practical exercises and a complete landing page implementation.
 
+# How to view the project
+
+Copy and paste this on your browser to view the project:
+''' https://johnsonchang-4ever-junior-dev.github.io/css-foundation-project/index.html
+'''
+
 ## 🚀 Technologies Used
 
 - **HTML5** - Semantic markup and proper document structure
@@ -23,6 +29,7 @@ The main landing page demonstrates a complete website layout featuring:
 - **Footer** with copyright information
 
 **Key Features:**
+
 - Fully responsive design with flexbox layout
 - Professional color scheme (#1F2937, #F9FAF8, #E5E7EB)
 - Hover effects and interactive elements
@@ -34,17 +41,20 @@ The main landing page demonstrates a complete website layout featuring:
 Through various exercises in the `pages/` directory, this project showcases mastery of:
 
 ### 1. CSS Fundamentals
+
 - **Universal, Element, Class, and ID Selectors** (`01-css-methods.html`)
 - **Specificity and Cascade Rules** (`cascade.html`)
 - **CSS Methods**: External, Internal, and Inline styling
 
 ### 2. Advanced Selectors
+
 - **Class and ID Selectors** (`02-class-id-selectors.html`)
-- **Grouping Selectors** (`03-grouping-selectors.html`) 
+- **Grouping Selectors** (`03-grouping-selectors.html`)
 - **Chaining Selectors** (`04-chaining-selectors.html`)
 - **Descendant Combinators** (`05-descendant-combinator.html`)
 
 ### 3. Layout Techniques
+
 - **Flexbox Mastery** (`flex-box.html`)
   - Flex containers and items
   - Nested flex layouts
@@ -54,13 +64,16 @@ Through various exercises in the `pages/` directory, this project showcases mast
 - **Block vs Inline Elements**
 
 ### 4. Typography & Styling
+
 - **Custom Font Families** (Courier New, Verdana, Roboto)
 - **Text Alignment and Sizing**
 - **Color Theory** (Named colors, hex values)
 - **Background Properties**
 
 ### 5. CSS Playground Features
+
 The `css-playground.html` serves as a testing ground featuring:
+
 - Universal selector experimentation
 - Color schemes with semantic naming (teal, darkgrey, tomato)
 - Font family combinations
@@ -110,17 +123,17 @@ css-foundation-project/
 
 ## 🧪 Learning Exercises Overview
 
-| Exercise | Skill Focus | Key Concepts |
-|----------|-------------|--------------|
-| CSS Playground | Experimentation | Universal selectors, color theory, font families |
-| CSS Methods | Implementation | External, internal, inline CSS |
-| Class & ID Selectors | Specificity | Targeting specific elements |
-| Grouping Selectors | Efficiency | DRY principles in CSS |
-| Chaining Selectors | Precision | Multiple class/ID targeting |
-| Descendant Combinator | Relationships | Parent-child styling |
-| Flexbox | Layout | Modern CSS layout system |
-| Block/Inline | Box Model | Element display properties |
-| Cascade | Specificity | CSS inheritance and overrides |
+| Exercise              | Skill Focus     | Key Concepts                                     |
+| --------------------- | --------------- | ------------------------------------------------ |
+| CSS Playground        | Experimentation | Universal selectors, color theory, font families |
+| CSS Methods           | Implementation  | External, internal, inline CSS                   |
+| Class & ID Selectors  | Specificity     | Targeting specific elements                      |
+| Grouping Selectors    | Efficiency      | DRY principles in CSS                            |
+| Chaining Selectors    | Precision       | Multiple class/ID targeting                      |
+| Descendant Combinator | Relationships   | Parent-child styling                             |
+| Flexbox               | Layout          | Modern CSS layout system                         |
+| Block/Inline          | Box Model       | Element display properties                       |
+| Cascade               | Specificity     | CSS inheritance and overrides                    |
 
 ## 🌟 Highlighted Achievements
 
@@ -140,6 +153,7 @@ css-foundation-project/
 ## 📚 References
 
 This project demonstrates concepts typically covered in:
+
 - The Odin Project CSS Foundations
 - Modern CSS layout techniques
 - Web accessibility best practices
@@ -147,4 +161,4 @@ This project demonstrates concepts typically covered in:
 
 ---
 
-*This project showcases a solid foundation in CSS fundamentals and modern web development practices, demonstrating readiness for more advanced frontend development challenges.*
+_This project showcases a solid foundation in CSS fundamentals and modern web development practices, demonstrating readiness for more advanced frontend development challenges._
