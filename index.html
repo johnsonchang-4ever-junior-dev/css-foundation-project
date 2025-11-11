@@ -1,98 +1,25 @@
-
 <!DOCTYPE html>
-<!-- Every HTML page starts with a doctype declaration. Tells the browser what version of HTML it should use -->
 <html lang="en">
-    <!-- This allows assistive technologies, for example screen readers, to adapt according to the language -->
-
-    <head>
-        <meta charset="UTF-8">
-        <!-- This meta element specifies the character encoding. UTF-8 is the most common character encoder -->
-
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Gives instructions to the browser to set the width of the page to follow the screen-width of the device. Initial zoom level when the page is first loaded by the browser is 1.0. Important for responsive web design-->
-        <title>css-foundation-project</title>
-        <!-- Without a <title> element, the webpage’s title would default to its file name. In -->
-        <link rel="stylesheet" href="./styles/style.css">
-    </head>
-        <!-- The head elements contains meta-information, and stuff required for our webpages to render correctly in the browser. Inside the head, we should not use any elements that displays content on the webpage.  -->
-    <body>
-        <!-- body element should always go below the head element as a complete HTML boilerplate(structure)-->
-        <!-- The body element contains all the content that will be displayed on the webpage, such as text, images, links, videos, etc. -->
-        <h1>Homepage - I cheated, it's done by claude AI in 2 mins</h1>
-        <h1>Welcome to the age of AI, hee hee !</h1>
-        <p><a href="./pages/page.html" target = "_self" rel = "noreferrer">Exercise: Click me to just page</a></p>
-        <button><a href="./pages/css-playground.html" target = "_self" rel = "noreferrer">Exercise: Click me to CSS Playground</a></button>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="page-title">Welcome to the Index Page</h1>
         
-
-        <!-- Header -->
-    <header>
-        <div class="logo">Header Logo</div>
-        <nav>
-            <a href="#">header link one</a>
-            <a href="#">header link two</a>
-            <a href="#">header link three</a>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-            <button class="btn-primary">Sign up</button>
-        </div>
-        <div class="hero-image">
-            this is a placeholder for an image
-        </div>
-    </section>
-
-    <!-- Information Section -->
-    <section class="information">
-        <h2>Some random information.</h2>
-        <div class="info-cards">
-            <div class="info-card">
-                <div class="info-card-image"></div>
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div class="info-card">
-                <div class="info-card-image"></div>
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div class="info-card">
-                <div class="info-card-image"></div>
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div class="info-card">
-                <div class="info-card-image"></div>
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Quote Section -->
-    <section class="quote-section">
-        <blockquote>
-            This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
-        </blockquote>
-        <cite>-Thor, God of Thunder</cite>
-    </section>
-
-    <!-- Call to Action Section -->
-    <section class="cta-section">
-        <div class="cta-container">
-            <div class="cta-content">
-                <h3>Call to action! It's time!</h3>
-                <p>Sign up for our product by clicking that button right over there!</p>
-            </div>
-            <button class="btn-secondary">Sign up</button>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        Copyright © The Odin Project 2021
-    </footer>
-
-    </body>
+        <h2 class="section-title">Learn HTML & CSS</h2>
+        
+        <h3 class="link-title">This is my CSS playground</h3>
+        <a href="./pages/css-playground.html" target="_blank" rel="noreferrer" class="nav-link">Go to CSS Playground</a>
+        
+        <h3 class="link-title">This is my project</h3>
+        <a href="./pages/project.html" target="_blank" rel="noreferrer" class="nav-link">Go to Project</a>
+        
+        <h3 class="link-title">This is my HTML playground</h3>
+        <a href="./pages/page.html" target="_blank" rel="noreferrer" class="nav-link">Go to HTML Playground</a>
+    </div>
+</body>
 </html>
-
