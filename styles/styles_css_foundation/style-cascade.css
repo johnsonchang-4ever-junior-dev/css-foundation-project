@@ -3,6 +3,10 @@
     outline: 1px solid purple;
 }
 
+body {
+    background-color: ivory;
+}
+
 .class_2_id_2_type  {
   color: red;
 }

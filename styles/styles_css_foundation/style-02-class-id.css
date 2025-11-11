@@ -2,6 +2,10 @@ p{
     background-color: pink;
     font-family: Verdana, "DejaVu Sans", sans-serif
 }
+
+body{
+    background-color: ivory;
+}
 #sec_elem{
     color: blue;
     font-size: 39px;

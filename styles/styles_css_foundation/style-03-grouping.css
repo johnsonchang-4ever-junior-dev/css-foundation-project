@@ -1,7 +1,12 @@
+body{
+    background-color: ivory;
+}
+
 .black_button{
     background-color: black;
     color: white;
 }
+
 
 .yellow_button {
     background-color: yellow;
